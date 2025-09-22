@@ -2,20 +2,23 @@
 Task 1: Scan Local Network for Open Ports
 
 ## Objecvtive
-Perform network reconnaissance on my local network to discover open ports and understand service exposure. Save scan outputs, analyze findings, and recommend remediations.
+Performing network reconnaissance on my local network to discover open ports and understand service exposure. Save scan outputs, analyze findings, and recommend remediations.
 
 ## Tools Used
 - **Nmap** (Network Mapper)
 - **Wireshark** (Network Traffic Analyzer)
-- **TCPdump** (Network Traffic Analyzer)
 - **Kali Linux** (Operating System)
 
-  ## Steps I followed
-1. Identified local network CIDR: `192.168.1.0/24`
-2. Quick scan to find live hosts & top ports:
-   - `sudo nmap -sS -F 192.168.1.0/24 -oN scans/quick_scan.txt`
-3. Targeted scans for interesting hosts:
-   - `sudo nmap -sS -sV -A -p- 192.168.1.101 -oA scans/host1_full`
-4. Packet capture during scan:
-   - `sudo tcpdump -i <interface> -w scans/scan_capture.pcap`
-5. Analyzed PCAP in Wireshark (filters used: `tcp.flags.syn == 1 && tcp.flags.ack == 0`)
+<h4>Commands Used:</h4>
+<ul>
+  <li>Check Nmap Version:<br>nmap --version</li>
+  <li>Check IP Address<br>ifconfig</li>
+  <li>Perform TCP SYN Scan<br>nmap -sS 192.168.1.0/24</li>
+  <li>Store Scan Output in a Text File<br>nmap -sS 192.168.1.0/24 > scan_Result.txt</li>
+  <li>Packet Capture in Wireshark<br>
+    <ul type='circle'>
+      <li>Captured network traffic while running Nmap scan.</li>
+      <li>Saved as: wiresharkscan.pcapng</li>
+    </ul>
+  </li>
+</ul>
