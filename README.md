@@ -6,6 +6,8 @@ Perform network reconnaissance on my local network to discover open ports and un
 
 ## Tools Used
 - **Nmap** (Network Mapper)
+- **Wireshark** (Network Traffic Analyzer)
+- **TCPdump** (Network Traffic Analyzer)
 - **Kali Linux** (Operating System)
 
   ## Steps I followed
