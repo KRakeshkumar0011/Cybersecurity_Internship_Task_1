@@ -19,5 +19,6 @@ Performing network reconnaissance on my local network to discover open ports and
 - Store Scan Output in a Text File:
 <br>nmap -sS 192.168.1.0/24 > scan_Result.txt
 - Packet Capture in Wireshark
-<br>Captured network traffic while running Nmap scan.
-<br>Saved as: wiresharkscan.pcapng
+<ul type='circle'>
+<li>Captured network traffic while running Nmap scan.</li>
+<li>Saved as: wiresharkscan.pcapng</li>
