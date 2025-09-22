@@ -22,3 +22,4 @@ Performing network reconnaissance on my local network to discover open ports and
   <ul type='circle'>
 <li>Captured network traffic while running Nmap scan.</li>
 <li>Saved as: wiresharkscan.pcapng</li>
+</ul>
