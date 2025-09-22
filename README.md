@@ -11,7 +11,7 @@ Performing network reconnaissance on my local network to discover open ports and
 
 # Commands Used:
 - Check Nmap Version:
- nmap --version
+<br>nmap --version
 - Check IP Address:
  ifconfig
 - Perform TCP SYN Scan:
