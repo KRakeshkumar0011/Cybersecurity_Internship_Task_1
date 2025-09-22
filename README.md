@@ -11,13 +11,13 @@ Performing network reconnaissance on my local network to discover open ports and
 
 # Commands Used:
 - Check Nmap Version:
-nmap --version
+ nmap --version
 - Check IP Address:
-ifconfig
+ ifconfig
 - Perform TCP SYN Scan:
-nmap -sS 192.168.1.0/24
+ nmap -sS 192.168.1.0/24
 - Store Scan Output in a Text File:
-nmap -sS 192.168.1.0/24 > scan_Result.txt
+ nmap -sS 192.168.1.0/24 > scan_Result.txt
 - Packet Capture in Wireshark
-Captured network traffic while running Nmap scan.
-Saved as: wiresharkscan.pcapng
+ Captured network traffic while running Nmap scan.
+ Saved as: wiresharkscan.pcapng
